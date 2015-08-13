@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+
+
+
+div#menu{
+	background-image: url("imagens/proc.png");
+	background-repeat: no-repeat;
+}
+
+nav#menu{
+	display: block;
+}
+
+nav#menu ol{
+		list-style: none;
+		text-transform: uppercase;
+		position: absolute;
+		top: -16px;
+		left: 700px
+	}
+	
+	nav#menu li{
+		display: inline-block;
+		background-color: #dddddd;
+		padding: 5px;
+		margin: 2px;
+		transition: background-color 1s;
+	}
+	
+	nav#menu li:hover{
+		background-color: #606060;
+	}
+	
+	nav#menu a{
+		color: #000000;
+		text-decoration: none; 
+	}
+	
+	nav#menu a:hover{
+		color: #ffffff;
+		text-decoration: underline;
+	}
+	
+	/* Imagem */
+	
+	figure.imagem-micro img{
+		width: 20%;
+		height: 20%;
+		margin: 20px;
+	}	
+	
+	h1#tituloMenu{
+		
+		top: 15%;
+		left: 30%;
+		color: gray;
+		text-shadow: 2px 2px 2px black;
+		font-size: 54px;
+	}
+	
+	

@@ -1,0 +1,113 @@
+@CHARSET "ISO-8859-1";
+
+.divPrincipal{
+	background-image: url("imagens/tecnologia2.png");
+	background-repeat: no-repeat;
+	margin-top: -15px;
+}
+
+div#lista {
+	width: 700px;
+	margin: 10px auto 10px auto;
+	padding: 10px 10px 10px 10px;
+}
+
+div#lista h1 {
+	top: 15%;
+	left: 30%;
+	color: gray;
+	text-shadow: 2px 2px 2px black;
+	font-size: 54px;
+}
+
+.botao{
+	font:normal bold 12px Arial, Tahoma, Helvetica, FreeSans, sans-serif; /* fonte do link - define o tamanho da letra, fonte da letra etc */
+    margin:0px;
+}
+a.botao:link {
+    color:#FFFFFF; /* cor do texto do botão */
+    background:#3F3E3E; /* cor de fundo alternativo , aparecerá nos navegadores que não aceitam CSS3 */
+    background: -webkit-gradient(linear, left top, left bottom, from(#3B2A2A), to(#826F6F)); /* cores que formarão o gradiente de fundo, a primeira cor fica no topo do botão e a segunda na parte de baixo */
+    background: -moz-linear-gradient(top, #3B2A2A, #826F6F); /* repita as cores do gradiente que você escolheu */
+    border:1px solid #ADA5A5; /* cor da borda */
+    text-decoration:none;
+    padding:5px;
+    outline:none;
+    -moz-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -webkit-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -goog-ms-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    border-radius:5px; /* valor do arredondamento das pontas do botão */
+}
+a.botao:visited {
+    color:#FFFFFF; /* cor do texto do botão que já foi clicado */
+    background:#989494; /* cor de fundo alternativo do botão que já foi clicado */
+    background: -webkit-gradient(linear, left top, left bottom, from(#3B2A2A), to(#826F6F)); /* gradiente de fundo do botão que já foi clicado */
+    background: -moz-linear-gradient(top, #3B2A2A, #826F6F); /* gradiente de fundo do botão que já foi clicado */
+    border:1px solid #ADA5A5; /* cor da borda do botão que já foi clicado */
+    text-decoration:none;
+    padding:5px;
+    outline:none;
+    -moz-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -webkit-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -goog-ms-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    border-radius:5px; /* valor do arredondamento das pontas do botão */
+}
+a.botao:hover {
+    color:#FFFFFF; /* cor do texto do botão com o mouse em cima */
+    background:#989494; /* cor de fundo alternativo com o mouse em cima */
+    background: -webkit-gradient(linear, left top, left bottom, from(#826F6F), to(#3B2A2A)); /* gradiente de fundo com o mouse em cima */
+    background: -moz-linear-gradient(top, #FF4040, #CD0000); /* gradiente de fundo com o mouse em cima */
+    border:1px solid #ADA5A5; /* cor da borda com o mouse em cima */
+    text-decoration:none;
+    padding:5px;
+    outline:none;
+    -moz-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -webkit-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -goog-ms-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -webkit-box-shadow: 0px 0px 5px #333333; /* cor da sombra do botão quando o mouse está em cima do botão */
+    -moz-box-shadow: 0px 0px 5px #333333; /*cor da sombra do botão quando o mouse está em cima do botão */
+    box-shadow: 0px 0px 5px #333333; /*cor da sombra do botão quando o mouse está em cima do botão */
+}
+a.botao:active {
+    color:#FFFFFF; /* cor do texto do botão quando é clicado */
+    background:#000000; /* cor de fundo do botão quando é clicado */
+    border:1px solid #000000; /* cor da borda do botão quando é clicado */
+    text-decoration:none;
+    padding:5px;
+    outline:none;
+    -moz-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -webkit-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -goog-ms-border-radius:5px; /* valor do arredondamento das pontas do botão */
+    border-radius:5px; /* valor do arredondamento das pontas do botão */
+    -webkit-box-shadow: 0px 0px 0px #333333;
+    -moz-box-shadow: 0px 0px 0px #333333;
+    box-shadow: 0px 0px 0px #333333; 
+}
+
+table#tabelalista{
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#tabelalista th{
+	border: 1px solid #606060;
+	padding: 5px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #606060;
+}
+
+table#tabelalista td{
+	border: 1px solid #606060;
+	text-align: center;
+}
+
+footer{
+	font-size: 12px;
+	text-align: center;
+	clear: both;
+	margin-top: 30px;
+}
